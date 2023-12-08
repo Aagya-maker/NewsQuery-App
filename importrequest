@@ -1,0 +1,7 @@
+import requests
+
+query=input("What type of news are you interested in?")
+url= f"https://newsapi.org/v2/everything?q={query}tesla&from=2023-11-08&sortBy=publishedAt&apiKey=c631119fe5a848dc8135e93476567ddd"
+
+r=requests.get(url)
+print(r.text)
