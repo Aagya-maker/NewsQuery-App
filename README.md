@@ -1,0 +1,2 @@
+# NewsQuery-App
+A simple Python script using the requests library to fetch and display news articles based on user input. Users can specify their interest in a particular type of news, and the script queries the News API to retrieve relevant articles, focusing on the specified topic. The code demonstrates a basic implementation of integrating an external API (News API) to retrieve and display news content in a console application.
